@@ -1,38 +1,226 @@
-.App {
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #161b22;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  flex-direction: row;
+}
+
+nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a.active {
+  border-bottom: 2px solid #58a6ff;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px 40px;
+}
+
+.typing {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f778ba;
+}
+
+.description {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+
+.download-cv {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.download-cv a {
+  background-color: #58a6ff;
+  color: #e6edf3;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-cv a:hover {
+  background-color: #34d399;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+#skills .skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #161b22;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  width: 150px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progress-bar {
+  background-color: #30363d;
+  height: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.progress {
+  height: 100%;
+  background-color: #34d399;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.project-card {
+  background-color: #161b22;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  gap: 15px;
+}
+
+.project-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.project-description {
+  max-width: 500px;
+}
+
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button {
+  background-color: #58a6ff;
+  color: #e6edf3;
+  border: none;
+  cursor: pointer;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #8b949e;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #facc15;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #161b22;
+  color: #c9d1d9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 80px 20px 30px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #skills .skill-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input, textarea, button {
+    width: 90%;
+  }
+
+  .project-card {
+    margin-bottom: 15px;
+  }
+
+  .project-card img {
+    height: auto;
+    object-fit: contain;
+  }
+  .project-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .project-details {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
+
+@media (min-width: 769px) {
+  .project-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project-card img {
+    flex: 1;
+    height: 200px;
+    object-fit: cover ;
+  }
+
+  .project-content {
+    flex: 2;
+  }
+}
+
