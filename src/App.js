@@ -68,7 +68,7 @@ const App = () => {
 
       <section id="about">
         <p className="description">
-        Hey there! I'm Praveen Boss, a BCA 6th semester student, passionate about Full Stack Development with skills in Python, HTML, CSS, JavaScript, MySQL, and React.js.
+        Hey there! I'm Praveen, a BCA 6th semester student, passionate about Full Stack Development with skills in Python, HTML, CSS, JavaScript, MySQL, and React.js.
 I've built projects like an E-commerce platform and a Grocery Management System while continuously learning Django and Flask for backend development.
 I specialize in creating responsive and interactive web applications with clean code and smooth UI/UX.
 My strengths lie in problem-solving, attention to detail, and quick learning, and I'm currently preparing for Wipro's technical interviews.
