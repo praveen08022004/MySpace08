@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/praveenportfoliio/static/css/main.80617482.css",
-    "main.js": "/praveenportfoliio/static/js/main.e24c3e2f.js",
+    "main.js": "/praveenportfoliio/static/js/main.437f068b.js",
     "static/js/453.ab55963d.chunk.js": "/praveenportfoliio/static/js/453.ab55963d.chunk.js",
     "static/media/fa-solid-900.ttf": "/praveenportfoliio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/praveenportfoliio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/praveenportfoliio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/praveenportfoliio/index.html",
     "main.80617482.css.map": "/praveenportfoliio/static/css/main.80617482.css.map",
-    "main.e24c3e2f.js.map": "/praveenportfoliio/static/js/main.e24c3e2f.js.map",
+    "main.437f068b.js.map": "/praveenportfoliio/static/js/main.437f068b.js.map",
     "453.ab55963d.chunk.js.map": "/praveenportfoliio/static/js/453.ab55963d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80617482.css",
-    "static/js/main.e24c3e2f.js"
+    "static/js/main.437f068b.js"
   ]
 }
