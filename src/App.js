@@ -129,7 +129,7 @@ Check out my resume below and feel free to connect with me!
       <section id="contact">
         <h2>Contact Me</h2>
         <form 
-  action="mailto:a.s.praveen2004@gmail.com" 
+action="https://formsubmit.co/a.s.praveen2004@gmail.com"
   method="post" 
   encType="text/plain"
 >
