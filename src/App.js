@@ -105,7 +105,7 @@ Check out my resume below and feel free to connect with me!
   <h2>My Projects</h2>
   <div className="project-card">
   <div className="project-details">
-    <img src={`${process.env.PUBLIC_URL}/images/bg.jpg`} alt="Profile" className="project-image" />
+<img src="./images/bg.jpg" alt="Profile" className="project-image" />
     <div>
       <h3>Grocessory Management System</h3>
       <p className="project-description">
@@ -118,7 +118,7 @@ Check out my resume below and feel free to connect with me!
 
   <div className="project-card">
   <div className="project-details">
-    <img src={`${process.env.PUBLIC_URL}/images/project2.jpg`} alt="Profile" className="project-image" />
+<img src="./images/bg.jpg" alt="Profile" className="project-image" />
     <h3>Online Store</h3>
     <p>Developed a dynamic e-commerce platform using PHP, integrating MySQL for efficientdatabase management of products, users, and orders. Implemented secure userauthentication, session handling, and input validation to enhance security. Optimizedbackend performance through caching techniques and query optimization..</p>
   </div>
