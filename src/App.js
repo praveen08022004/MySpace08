@@ -1,7 +1,14 @@
 import { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+<BrowserRouter basename="/MySpace08">
+  <Routes>
+    {/* Your routes */}
+  </Routes>
+</BrowserRouter>
+
 
 const skills = [
   { name: 'HTML', percentage: 90, icon: 'fab fa-html5' },
